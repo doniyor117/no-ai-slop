@@ -1,10 +1,10 @@
 # no-ai-slop
 
-A skill that makes an agent write prose a person would actually send. It works while the text is being drafted, not as a cleanup pass afterwards.
+Rewriting finished text fixes the sentences and leaves the empty paragraph underneath.
 
-That distinction is the whole design. A language model writes by predicting what usually comes next, which produces the sentence most texts would put in that slot rather than the sentence this text needs. Scrubbing the tells off a finished draft leaves the empty paragraph underneath. So the method here is two tests applied to every sentence and every detail as you write, and the 36 patterns are only a checking pass for what slipped through.
+So this one runs while you draft. Two tests decide what goes in, applied to every sentence and every detail you are weighing. The 36 patterns are a checking pass for what slipped through, never the method.
 
-Because it is a `SKILL.md` file following the [Agent Skills](https://agentskills.io) standard, it works in Claude Code, Codex, Cursor, Copilot, Gemini CLI, Goose, OpenCode, Amp, and any other tool that reads skills.
+One `SKILL.md` on the [Agent Skills](https://agentskills.io) standard, so it loads in Claude Code, Codex, Cursor, Copilot, Gemini CLI, and anything else that reads skills.
 
 ## Install
 
