@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "no-ai-slop",
+  "description": "Write prose that reads like a person wrote it, not a language model.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Doniyor",
+    "url": "https://github.com/doniyor117"
+  },
+  "homepage": "https://github.com/doniyor117/no-ai-slop",
+  "repository": "https://github.com/doniyor117/no-ai-slop",
+  "license": "MIT",
+  "keywords": ["writing", "editing", "prose", "style", "ai-slop", "humanize"],
+  "skills": ["./"]
+}
